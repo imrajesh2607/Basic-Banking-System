@@ -1,12 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #d5b9b2;
+    background-color: rgb(156, 125, 78);
 }
 
 /* navbar css starts here  */
 .topnav {
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(24, 36, 192);
   }
   
 .topnav a {
