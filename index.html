@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Basic Banking System made for Easy Money Transfers between multiple users.">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Basic Banking System by Rajesh Kulkarni, Basic Banking System github">
+  <meta name="author" content="Rajesh Kulkarni">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Banking System</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+  <!-- AOS  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body onload="loader()">
+
+  <!-- loader for splash screen -->
+  <div id="loading"></div>
+  <!-- header starts here  -->
+  <header class="body-header">
+  <!-- navbar starts here  -->
+  <nav>
+    <div class="topnav">
+      <a class="active" href="index.html">The Sparks Bank</a>
+      <a href="#contact">Contact Us</a>
+      <a href="customers.html">View Customers</a>
+      <a href="#about">About</a>
+      <a href="#">Home</a>
+      <!-- <input type="text" name="search" placeholder="Search.."> -->
+    </div>
+  </nav>
+  <!-- navbar ends here -->
+  <div class="header">
+    <img src="assets/media/sparks.png" height=100% width=100%>
+  </div>
+  </header>
+  <!-- header ends here -->
+
+  <!-- About Us Section starts here -->
+  <section id="about">
+    <div class="about-section">
+      <h2>About Us</h2>
+      <br>
+      <p>The Sparks Bank (TSB) a Fortune 500 company, is an Indian Multinational,
+        Public Sector Banking and Financial services statutory body headquartered in Pune.
+        The rich heritage and legacy of over 200 years, accredits TSB as the most trusted Bank
+        by Indians through generations.</p>
+      <p>Growing with times, TSB continues to redefine banking in India,
+        as it aims to offer responsible and sustainable Banking solutions.</p>
+    </div>
+  </section>
+  <!-- About Us Section ends here -->
+
+  <!-- Column Section starts here -->
+  <section class="columns">
+    <br>
+    <br>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <i class="far fa-thumbs-up icon1"></i><br>
+          <h3>Professional &nbsp Services</h3>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <i class="fas fa-wallet icon2"></i><br>
+          <h3>Transfer Money Easily</h3>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <i class="fas fa-shield-alt icon3"></i><br>
+          <h3>Safe & Secure <br>for all users</h3>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </section>
+  <!-- Column Section ends here -->
+
+  <!-- Contact Section starts here  -->
+  <section id="contact">
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="assets/media/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <br>
+          <div class="info">
+            <div class="information">
+              <img src="assets/media/location.png" class="icon" alt="" />
+              <p>The Hangar, NUS Enterprise
+                21 Hng Mui Keng Terrace, Singapore, 119613</p>
+            </div>
+            <div class="information">
+              <img src="assets/media/email.png" class="icon" alt="" />
+              <p>info@thesparksfoundation.sg</p>
+            </div>
+            <div class="information">
+              <img src="assets/media/phone.png" class="icon" alt="" />
+              <p>+65-8402-8590</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/thesparksfoundation.info" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/tsfsingapore" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com/thesparksfoundation.info" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/the-sparks-foundation/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section ends here  -->
+ 
+  <section id="copyright">
+    <div class="copyright-info">
+        <p class="copyright-text"> This site is made by <a href="https://www.linkedin.com/in/rajesh-kulkarni-0126ab1b1" target="_blank"> Rajesh Kulkarni</a>.</p>
+    </div>
+  </section>
+
+  <!-- spalsh screen js -->
+  <script>
+    var preloader = document.getElementById("loading");
+
+    function loader() {
+      preloader.style.display = 'none';
+    }
+  </script>
+
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+  <!-- aos data  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 700,
+    });
+  </script>
+
+</body>
+
+</html>
