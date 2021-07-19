@@ -1,12 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: rgb(156, 125, 78);
+    background-color: #2196F3;
 }
 
 /* navbar css starts here  */
 .topnav {
     overflow: hidden;
-    background-color: rgb(24, 36, 192);
+    background-color: black;
   }
   
 .topnav a {
@@ -25,13 +26,13 @@ body{
 }
   
 .topnav a.active {
-    background-color: #2196F3;
+    background-color:#2fa05a;
     color: white;
     float: left;
 }
 
 .topnav a.active:hover {
-    background-color: #1bc95e;
+    background-color: #1bc95e ;
     color: white;
 }
   
